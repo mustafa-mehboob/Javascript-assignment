@@ -17,7 +17,7 @@ var ext = ["cold drink" , "water" , "ice cream"]
 for(var b = 0; b < food.length; b++){
     
     if (ch === food[b]) {
-        document.write("<h1>" + food[b] + " is available" + "</h1>")
+        document.write("<h1>" + food[b].toUpperCase()  + " is available" + "</h1>")
 
         for(e = 0; e < ext.length; e++){
         document.write("<h1>" + (e+1) + ") "+ ext[e] + " is also available" + "</h1>")
