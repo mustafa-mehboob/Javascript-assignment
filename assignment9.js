@@ -38,3 +38,16 @@ if (date.getHours() < 13) {
 } else {
     document.write("<h3>" + "It's PM" + "</h3>")
 }
+
+// Question 8
+
+var lastDate = new Date("31 dec , 2022");
+document.write("<h3>" + "Later date: " + lastDate + "</h3>")
+
+// Question 9
+
+var firstRamadan = new Date("18 June, 2015");
+console.log(date.getTime() - firstRamadan.getTime() / (1000 * 60 * 60 * 24 * 365) );
+var rtl = ((date.getTime() - firstRamadan.getTime()))
+console.log(rtl );
+
